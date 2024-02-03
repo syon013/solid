@@ -262,6 +262,76 @@
         }
       ],
       "repoUrl": "https://github.com/syon013/goobne"
+    },
+    {
+      "id": 3,
+      "targetDevice": "responsive",
+      "deployUrl": "https://syon013.github.io/money-protector",
+      "projectName": "money-protector",
+      "projectImage": [
+        {
+          "src": "/solid/images/portfolio/money-protector/1.png",
+          "alt": "가계부 메인 화면 스크린샷"
+        },
+        {
+          "src": "/solid/images/portfolio/money-protector/2.png",
+          "alt": "가계부 목록 화면 스크린샷"
+        },
+        {
+          "src": "/solid/images/portfolio/money-protector/3.png",
+          "alt": "가계부 상세 화면 스크린샷"
+        }
+      ],
+      "description": "반응형 가계부",
+      "techStacks": ["React", "TailwindCSS", "JavaScript", "Vite"],
+      "mainTask": [
+        "Button, Modal, Footer 등 컴포넌트 개발",
+        "Gateway 페이지 및 Calender 페이지 개발",
+        "반응형 웹 구현"
+      ],
+      "workDetail": [
+        {
+          "id": 1,
+          "title": "Gateway 페이지",
+          "description": [
+            {
+              "id": 1,
+              "subTitle": "Gateway 페이지에 대한 UI및 기능을 구현 하였습니다.",
+              "content": [
+                {
+                  "id": 1,
+                  "text": "Gateway 페이지에서는 반응형에 따라 다른 이미지가 보여지도록 구현하였습니다."
+                },
+                {
+                  "id": 2,
+                  "text": "바로가기 버튼을 누르면 로그인 페이지로 이동하도록 구현하였습니다."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Calender 페이지",
+          "description": [
+            {
+              "id": 1,
+              "subTitle": "Calender 페이지의 UI와 기능을 구현 하였습니다.",
+              "content": [
+                {
+                  "id": 1,
+                  "text": "date-fns 라이브러리를 이용하여 달력을 구현하였으며, 해당 달력에는 사용자가 입력한 데이터가 표시되도록 구현하였습니다."
+                },
+                {
+                  "id": 2,
+                  "text": "Calender의 날짜를 클릭하면 Modal이 Open되도록 구현하여, 해당 날짜의 데이터를 확인 또는 추가/수정/삭제할 수 있도록 구현하였습니다."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "repoUrl": "https://github.com/syon013/money-protector"
     }
   ]
 }
